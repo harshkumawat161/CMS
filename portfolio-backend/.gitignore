@@ -1,0 +1,33 @@
+# Backend .gitignore
+
+# Maven build directory & artifacts
+target/
+*.jar
+*.war
+*.ear
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+application-secret.yml
+
+# Storage and uploads
+uploads/
+/uploads/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
